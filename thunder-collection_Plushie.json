@@ -1,0 +1,218 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Plushie",
+    "dateExported": "2023-03-15T16:38:41.751Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e199f06b-fd1e-466f-bc80-b34ec6f4dd9a",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Get plushies",
+            "url": "http://localhost:3000/plushie",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-15T16:14:33.625Z",
+            "modified": "2023-03-15T16:14:33.625Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"type\": \"bunny\",\n  \"size\": 8\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b4f010cd-75c7-4cce-a3f8-e7fcc93df445",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Get one plushie",
+            "url": "http://localhost:3000/plushie/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-15T16:14:46.145Z",
+            "modified": "2023-03-15T16:14:46.145Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"type\": \"bunny\",\n  \"size\": 8\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "aa530337-a54d-483d-986c-5683502a9db5",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Upload plushie",
+            "url": "http://localhost:3000/plushie",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-15T16:15:13.289Z",
+            "modified": "2023-03-15T16:26:21.727Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"type\": \"tiger\",\n  \"size\": 20\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "104c54c7-d918-4241-9b96-46224b63bb25",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Update plushie",
+            "url": "http://localhost:3000/plushie/2",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-03-15T16:15:27.297Z",
+            "modified": "2023-03-15T16:15:27.297Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"size\": 21\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c4b8d8d8-5f1d-4ce6-b90e-17be0afdccf6",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Delete plushie",
+            "url": "http://localhost:3000/plushie/3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-03-15T16:15:39.920Z",
+            "modified": "2023-03-15T16:15:39.920Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"size\": 21\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9330c3f4-d634-4b5d-91e0-7080bcfd9478",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Get preschoolers",
+            "url": "http://localhost:3000/preschooler",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-03-15T16:15:55.280Z",
+            "modified": "2023-03-15T16:15:55.280Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Timmy\",\n  \"age\": 4\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2c5a2a35-2e00-497d-9f3a-aaba3c2dc019",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Update a preschooler",
+            "url": "http://localhost:3000/preschooler/1",
+            "method": "PATCH",
+            "sortNum": 70000,
+            "created": "2023-03-15T16:16:14.923Z",
+            "modified": "2023-03-15T16:16:14.923Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Timmaaah\",\n  \"age\": 4\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1a1ffd62-6356-407d-967a-269ec6779948",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Upload a preschooler",
+            "url": "http://localhost:3000/preschooler",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-03-15T16:25:46.964Z",
+            "modified": "2023-03-15T16:37:52.201Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"asd\",\n  \"age\": 6\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "64da8792-7e01-43ef-b87f-782c1be9ab4f",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Get one preschooler",
+            "url": "http://localhost:3000/preschooler/1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-03-15T16:37:19.146Z",
+            "modified": "2023-03-15T16:37:19.146Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Miguel\",\n  \"age\": 6\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "21cd6d17-48a7-446b-ae91-e20523f82c1d",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Delete a preschooler",
+            "url": "http://localhost:3000/preschooler/4",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2023-03-15T16:38:19.442Z",
+            "modified": "2023-03-15T16:38:19.442Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Miguel\",\n  \"age\": 6\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "08903ebb-03be-41f7-b4fc-6be8f3ed85af",
+            "colId": "eacc2ce6-3e4c-41ed-9a4c-1339e1693145",
+            "containerId": "",
+            "name": "Assign a plushie to a preschooler",
+            "url": "http://localhost:3000/plushie/5/giveto/3",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-03-15T16:38:35.672Z",
+            "modified": "2023-03-15T16:38:35.672Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Miguel\",\n  \"age\": 6\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
